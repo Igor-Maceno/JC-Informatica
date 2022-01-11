@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/**********************************/
+/* 0. Variáveis
+/* 1. Container
+/* 2. Menu
+/* 3. Header
+/* 4. Bem-vindo
+/* 5. Serviços
+/* 6. Sobre nós
+/* 7. Contato
+/* 8. Footer 
+
+/**********************************/
+
+/**********************************/
+/* 0. Variáveis
+/**********************************/
+:root{
+	--ff-primary: "Rubik", Helvetica, Arial, sans-serif;
+
+	--clr-dark-blue: #080815;
+	--clr-blue: #160E63;
+	--clr-pink-dark: #BF389E;
+	--clr-pink-light: #C6B6D0;
+	--clr-white: #f5f5f5;
+}
+/**********************************/
