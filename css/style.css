@@ -287,3 +287,19 @@ hr{
 /**********************************/
 /* 8. Footer
 /**********************************/
+
+footer{
+	position: absolute;
+	width: 100%;
+	margin-top: 50px;
+	text-align: center;
+	background-color: var(--clr-pink-light);
+}
+footer img{
+	width: 250px;
+	margin: 30px auto;
+}
+footer p{
+	color: var(--clr-dark-blue);
+	margin: 15px auto;
+}
