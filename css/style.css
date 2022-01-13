@@ -219,3 +219,48 @@ img{
 	padding: 30px;
 	margin: 10px;
 }
+
+/**********************************/
+
+/**********************************/
+/* 6. Sobre nós
+/**********************************/
+.sobre{
+	max-width: 960px;
+	margin: 50px auto;
+	text-align: center;
+	padding: 10px;
+}
+
+.sobre-c h2{
+	color: #5A29D0;
+	line-height: 5px;
+}
+
+.sobre-c img{
+	width: 130px;
+	margin: 0 auto;
+}
+
+.sobre-c p{
+	font-weight: lighter;
+}
+
+.sobre-c__foto{
+	display: flex;
+	flex-wrap: wrap;
+}
+.sobre-c__joce{
+	margin: 0 25px 0 auto;
+}
+.sobre-c__igor{
+	margin: 0 auto 0 25px;
+}
+hr{
+	border: none;
+	border-radius: 10px;
+	background-image: linear-gradient(90deg, #5A29D0 0%, #BF389E 100%);
+	height: 5px;
+	width: 60px;
+	margin: 20px auto;
+}
