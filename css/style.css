@@ -172,3 +172,47 @@ img{
 /**********************************/
 /* 5. Serviços
 /**********************************/
+
+.servicos{
+	max-width: 960px;
+	margin: 50px auto;
+	text-align: center;
+
+}
+
+.servicos-c{
+	display: flex;
+	flex-wrap: wrap;
+	align-items:flex-start;
+}
+
+.servicos-c__hardware{
+	max-width: 300px;
+	background-color: var(--clr-blue);
+	box-shadow: 0 5px 15px rgba(22, 14, 99, .4);
+	border-radius: 10px;
+	padding: 30px;
+	margin: 10px 10px 10px auto;
+}
+.servicos-c__Software{
+	max-width: 300px;
+	background-color: var(--clr-pink-dark);
+	box-shadow: 0 5px 15px rgba(191, 56, 158, .4);
+	border-radius: 10px;
+	padding: 30px;
+	margin: 10px;
+}
+.servicos-c button{
+	margin-top: 20px;
+}
+.servicos-c__Software button{
+	border: solid 1px var(--clr-blue);
+}
+.servicos-c__site{
+	max-width: 300px;
+	background-color: var(--clr-blue);
+	box-shadow: 0 5px 15px rgba(22, 14, 99, .4);
+	border-radius: 10px;
+	padding: 30px;
+	margin: 10px auto 10px 10px;
+}
