@@ -64,8 +64,8 @@ p{
 
 .section__titulo{
 	text-align: center;
-	font-size: 3rem;
-	margin-bottom: 10px;
+	font-size: 2.5rem;
+	margin: 20px;
 }
 img{
 	display: block;
@@ -84,7 +84,7 @@ img{
   }
   .glow-button:hover {
 	color: rgba(255, 255, 255, 1);
-	box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+	box-shadow: 0 5px 15px rgba(145, 92, 182, .9);
   }
 
 /**********************************/
@@ -184,20 +184,23 @@ img{
 	display: flex;
 	flex-wrap: wrap;
 	align-items:flex-start;
+	justify-content: space-around;
+	padding: 0 100px;
 }
 
 .servicos-c__hardware{
 	max-width: 300px;
 	background-color: var(--clr-blue);
-	box-shadow: 0 5px 15px rgba(22, 14, 99, .4);
+	box-shadow: 0 5px 15px rgba(22, 14, 99, .9);
 	border-radius: 10px;
 	padding: 30px;
-	margin: 10px 10px 10px auto;
+	margin: 10px;
+	
 }
 .servicos-c__Software{
 	max-width: 300px;
 	background-color: var(--clr-pink-dark);
-	box-shadow: 0 5px 15px rgba(191, 56, 158, .4);
+	box-shadow: 0 5px 15px rgba(191, 56, 158, .9);
 	border-radius: 10px;
 	padding: 30px;
 	margin: 10px;
@@ -211,8 +214,8 @@ img{
 .servicos-c__site{
 	max-width: 300px;
 	background-color: var(--clr-blue);
-	box-shadow: 0 5px 15px rgba(22, 14, 99, .4);
+	box-shadow: 0 5px 15px rgba(22, 14, 99, .9);
 	border-radius: 10px;
 	padding: 30px;
-	margin: 10px auto 10px 10px;
+	margin: 10px;
 }
