@@ -40,6 +40,7 @@ html{
 
 body{
 	background-color: var(--clr-dark-blue);
+	color: var(--clr-white);
 	font-family: var(--ff-primary);
 }
 
@@ -59,7 +60,6 @@ li{
 
 p{
 	line-height: 21.82px;
-	padding: 0 10px;
 }
 
 .section__titulo{
@@ -97,4 +97,24 @@ img{
 }
 .nav__link{
 	padding: 20px 10px;
+}
+
+.header{
+    max-width: 960px;
+	margin: 0 auto;
+}
+.header-c{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.header-c__text{
+	flex: 6 1 160px;
+}
+.header-c__text p{
+	text-align: justify;
+}
+.header-c__img{
+	flex: 1 1 200px;
+	padding-left: 20px;
 }
