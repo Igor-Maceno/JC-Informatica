@@ -6,7 +6,7 @@
 
 /**********************************/
 /* 0. Variáveis
-/* 1. Container
+/* 1. Configurações gerais
 /* 2. Menu
 /* 3. Header
 /* 4. Bem-vindo
@@ -32,7 +32,7 @@
 /**********************************/
 
 /**********************************/
-/* 1. Container
+/* 1. Configurações gerais
 /**********************************/
 html{
 	scroll-behavior: smooth;
@@ -72,6 +72,21 @@ img{
 	max-width: 100%;
 }
 
+.button {
+	text-decoration: none;
+	border-style: none;
+	background-image: linear-gradient(90deg, #5A29D0 0%, #BF389E 100%);
+	padding: 15px 40px;
+	border-radius: 50px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	transition: all 0.2s ease-in-out;
+  }
+  .glow-button:hover {
+	color: rgba(255, 255, 255, 1);
+	box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  }
+
 /**********************************/
 /* 2. Menu
 /**********************************/
@@ -83,6 +98,7 @@ img{
 	max-width: 960px;
 	margin: 0 auto;
 	flex-wrap: wrap;
+	padding: 50px 0;
 }
 .menu__logo{
 	margin: 10px;
@@ -99,6 +115,9 @@ img{
 	padding: 20px 10px;
 }
 
+/**********************************/
+/* 3. Header
+/**********************************/
 .header{
     max-width: 960px;
 	margin: 0 auto;
@@ -111,6 +130,9 @@ img{
 .header-c__text{
 	flex: 6 1 160px;
 }
+.header-c button{
+	margin: 10px 0;
+}
 .header-c__text p{
 	text-align: justify;
 }
@@ -118,3 +140,8 @@ img{
 	flex: 1 1 200px;
 	padding-left: 20px;
 }
+.intro {
+	color: var(--clr-pink-dark);
+}
+
+/**********************************/
