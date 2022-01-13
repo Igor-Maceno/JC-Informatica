@@ -98,7 +98,7 @@ img{
 	max-width: 960px;
 	margin: 0 auto;
 	flex-wrap: wrap;
-	padding: 50px 0;
+	padding: 40px 0;
 }
 .menu__logo{
 	margin: 10px;
@@ -144,4 +144,31 @@ img{
 	color: var(--clr-pink-dark);
 }
 
+/**********************************/
+
+/**********************************/
+/* 4. Bem-vindo
+/**********************************/
+.welcome{
+	max-width: 960px;
+	margin: 40px auto;
+	text-align: center;
+}
+.welcome-c__img{
+	margin: 50px auto 0 auto;
+	height: 50px;
+}
+.welcome-c__upgrade span{
+	color: var(--clr-pink-dark);
+	font-size: 32px;
+}
+.welcome-c__text p{
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+/**********************************/
+
+/**********************************/
+/* 5. Serviços
 /**********************************/
